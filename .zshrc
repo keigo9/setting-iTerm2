@@ -41,3 +41,6 @@ setopt prompt_subst
  
 # プロンプトの右側にメソッドの結果を表示させる
 # PROMPT='`rprompt-git-current-branch`'
+
+autoload -U compinit
+compinit
